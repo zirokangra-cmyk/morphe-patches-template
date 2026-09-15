@@ -72,6 +72,17 @@ object Constants {
                     SupportedAbi.ARMEABI_V7A to 584119423
                 )
             )
+        )    
+val COMPATIBILITY_FREENOTE = Compatibility(
+    name = "FreeNote",
+    packageName = "ai.note.notepad.memo.journal.freenote",
+    apkFileType = ApkFileType.APKM,
+    appIconColor = 0xFF0000,
+    targets = listOf(
+        AppTarget(
+            version = "3.25.0"
         )
+    )
+)
     )
 }
